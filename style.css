@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'roboto';
+    font-weight: normal;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    align-items: center;
+
+
+}
+.underline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+header ul li{
+    margin-left: 1rem;
+}
+#menu{
+    height: 17px;
+}
+#user{
+    height: 30px;
+}
+
+header ul img{
+    height: 25px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    margin-top: 30px;
+    height: 10rem;
+    pointer-events: none;
+}
+
+.search{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 7px;
+    justify-content: space-evenly;
+}
+
+.search:hover{
+    box-shadow: 1px 3px 4px 1px lightgray;
+}
+
+.search img{
+    height: 20px;
+    margin-right: 10px;
+}
+.search input{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+.buttons button{
+    padding: 8px;
+    
+    margin-top: 1rem;
+    border: none;
+    border-radius: 3px;
+}
+main p span{
+    color: blue;
+    margin-left: 1rem;
+    font-size: small;
+    
+
+}
+main p{
+    padding: 15px;
+   
+}
+
+footer{
+    background-color: #f3f2f3;
+    padding: 0.3rem;
+    margin-top:18.9%;
+    
+
+}
+footer ul{
+    list-style: none;
+}
+
+
+footer div{
+    padding: 0.3rem;
+    padding-left: 1rem;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+footer div ul{
+    display: flex;
+    
+}
+footer div ul li{
+    padding-right: 2rem;
+    color:  grey;
+    
+}
+footer div p{
+    color: gray;
+}
